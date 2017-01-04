@@ -124,6 +124,15 @@ header .intro-text .skills {
       background-size: cover !important;  
   }
 }
+@media (max-width: 450px) {
+    header {
+      -moz-background-size: cover !important;
+      -webkit-background-size: cover !important;
+      background-attachment: scroll !important;
+      background-position: center !important; 
+      background-size: cover !important;  
+  }
+}
 .navbar-custom {
   background: #6D7993;
   font-family: 'Raleway', sans-serif;
